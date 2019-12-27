@@ -10,3 +10,7 @@
 
 #### Note:
 you will need the hid library in the lib folder (if there is no lib folder create one)
+
+Like This - 
+
+<img src="https://github.com/librarysteve/trinket-ng/blob/master/libfolder.png">
