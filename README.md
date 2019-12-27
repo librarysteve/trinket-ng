@@ -15,7 +15,7 @@ https://codewith.mu/
 * notepad
 * nano (Linux/OSX)
 * vim (if you hate life)
-* emacs (if youre a wizzard)
+* emacs (if youre a wizard)
 
 #### Note:
 you will need to extract the HID library in the lib folder (if there is no lib folder create one)
