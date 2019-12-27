@@ -10,7 +10,7 @@
 
 Suggested editors are: 
 * mu
-https://codewith.mu/
+https://codewith.mu/ (this intigrates with the board and will give you errors in the serial console)
 
 * notepad
 * nano (Linux/OSX)
