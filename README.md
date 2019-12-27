@@ -5,11 +5,20 @@
 ### HID/Keystroke injection
 ##### Use it to automate a task across air gapped devices, or to *remind* someone to lock thier workstation.
 1. To run the example, add the code to the main.py file
-2. Edit the peyload variables to your liking
-3. Save and be ready for that paylod to run when you next plug the trinket in.
+2. Edit the peyload variables to your liking (or leave it as is)
+3. Save and be ready for that paylod to run. It will run immediately.
+
+Suggested editors are: 
+* mu
+https://codewith.mu/
+
+* notepad
+* nano (Linux/OSX)
+* vim (if you hate life)
+* emacs (if youre a wizzard)
 
 #### Note:
-you will need the hid library in the lib folder (if there is no lib folder create one)
+you will need to extract the HID library in the lib folder (if there is no lib folder create one)
 
 Like This - 
 
