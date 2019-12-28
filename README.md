@@ -23,4 +23,4 @@ you will need to extract the [HID library](https://github.com/librarysteve/trink
 
 Like This - 
 
-<img src="https://github.com/librarysteve/trinket-ng/blob/master/libfolder.png">
+<img src="https://github.com/librarysteve/trinket-ng/blob/master/library_location.png">
