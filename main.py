@@ -1,22 +1,28 @@
+# This script opens notepad and types the msg payload x num_lines        #
+# For other keycodes, and documentation on this library check this link: #
+# https://circuitpython.readthedocs.io/projects/hid/en/latest/index.html #
+
+####################################################
+# Modules imported below must be in the lib folder #
 import time
 import board
 import digitalio
 from adafruit_hid.keyboard import Keyboard
 from adafruit_hid.keycode import Keycode
 from adafruit_hid.keyboard_layout_us import KeyboardLayoutUS
-####### Modules imported above must be in the lib folder #######
 
+################################################
+# Variables below are required for this script #
 kbd = Keyboard()
 layout = KeyboardLayoutUS(kbd)
-####### Variables above are required #######
 
-##############################################################
-# Edit below to chnge the message and repetition of the loop #
+#####################
+# PAYLOAD VARIABLES #
 msg = 'I will not leave my computer unlocked when I walk away.'
 num_lines = 10
 
-#########################
-####### Functions #######
+#############
+# Functions #
 def Open_Notepad():
     kbd.send(Keycode.GUI) ## this is the windows key
     time.sleep(0.80) ## delay bc windows is slow
@@ -30,8 +36,7 @@ def type_loop(message, lines):
         layout.write(message)
         kbd.send(Keycode.ENTER)
 
-####### Main #######
+########
+# Main #
 Open_Notepad()
 type_loop(msg, num_lines)
-## For other keycodes, and documentation on this library check this link:
-## https://circuitpython.readthedocs.io/projects/hid/en/latest/index.html
