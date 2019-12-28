@@ -7,6 +7,7 @@
 1. To run the example, replace the content of the main.py file on the board with [this](https://github.com/librarysteve/trinket-ng/blob/master/main.py)
 2. Edit the peyload variables to your liking (or leave it as is)
 3. Save and be ready for that paylod to run. It will run immediately.
+4. Wait.
 
 Suggested editors are: 
 * mu
