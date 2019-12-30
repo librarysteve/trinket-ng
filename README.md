@@ -34,6 +34,9 @@ https://codewith.mu/ (this intigrates with the board and will give you errors in
 * nano (Linux/OSX)
 * vim (if you hate life)
 * emacs (if youre a wizzard)
+###### Notepad++ is not recommended due to the way it saves files in session.
+
+-----------------------------------------------------------------------------------------
 
 #### Note:
 Use the zipped library [here](https://github.com/librarysteve/trinket-ng/blob/master/lib.zip) to make sure you have all the required modules.
