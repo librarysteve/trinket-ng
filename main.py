@@ -44,7 +44,7 @@ OFF = (0, 0, 0)
 #####################
 # Payload Variables #
 msg = 'I will not leave my computer unlocked when I walk away.'
-num_lines = 5
+num_lines = 10
 
 
 #############
