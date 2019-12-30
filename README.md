@@ -1,8 +1,7 @@
 # trinket-ng
-#### We-pwn-izing the Adafruit Trinket M0 for fun and profit.(but mostly for some people I work with :space_invader: )
+### We-pwn-izing the Adafruit Trinket M0 for 
+### fun and profit.(but mostly for some people I work with :space_invader: )
 
-
-### HID/Keystroke injection
 ##### Use it to automate a task across air gapped devices, or to *remind* someone to lock thier workstation.
 1. To run the example, replace the content of the main.py file on the board with [this](https://github.com/librarysteve/trinket-ng/blob/master/main.py)
 2. Edit the peyload variables to your liking (or leave it as is)
