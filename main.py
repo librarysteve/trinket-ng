@@ -27,7 +27,7 @@ from adafruit_hid.keyboard_layout_us import KeyboardLayoutUS
 # Variables below are required for this script #
 kbd = Keyboard()
 layout = KeyboardLayoutUS(kbd)
-dots = dotstar.DotStar(board.APA102_SCK, board.APA102_MOSI, 1, brightness=1.0)
+dots = dotstar.DotStar(board.APA102_SCK, board.APA102_MOSI, 1, brightness=0.2)
 
 
 #############
@@ -79,5 +79,6 @@ Open_Notepad()              # then rapidly flash BLUE to signal the end of the p
 type_loop(msg, num_lines)
 time.sleep(1.0)
 flash_color(12, BLUE, 0.05)
+flash_color(1, OFF, 2)
 
 ################ END ################
