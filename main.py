@@ -72,8 +72,4 @@ type_loop(msg, num_lines)
 time.sleep(1.0)
 flash_color(12, BLUE, 0.05)
 
-
-###############################################
-# Turn the LED off forever un till you unplug #
-while True:
-    dots[0] = (OFF)
+################ END ################
