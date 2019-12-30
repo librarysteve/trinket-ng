@@ -1,8 +1,16 @@
-# This script opens notepad and types the msg payload x num_lines        #
-# For other keycodes, and documentation on this library check this link: #
-# https://circuitpython.readthedocs.io/projects/hid/en/latest/index.html #
-#       For my colleagues...                                             #
-#                       - m3lodicmin0r                                   #
+# This script opens notepad and types a predefined x number of times #=
+#
+# For other keyboard codes, and documentation on this library check this link:
+#       https://circuitpython.readthedocs.io/projects/hid/en/latest/index.html
+#
+#       For my colleagues...
+#                       - m3lodicmin0r
+#
+# This project was developed using open 
+# source hardware and softaware from the 
+# amazing people at Adafruit, support 
+# opensource and buy more awesome stuff at 
+# https://www.adafruit.com/
 
 ####################################################
 # Modules imported below must be in the lib folder #
