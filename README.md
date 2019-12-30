@@ -1,4 +1,7 @@
 # trinket-ng
+*next gen? national geographic? ninja gaiden?*
+<!-- hacktheplanet! -->
+
 ### We-pwn-izing the Adafruit Trinket M0 for fun and profit.
 ### (but mostly for some people I work with :space_invader: )
 
@@ -47,6 +50,3 @@ Direcotry for lib should look like:
 CIRCUITPY:\lib\adafruit_dotstar.mpy
 
 CIRCUITPY:\lib\adafruit_hid\ (the other .mpy files)
-
-
-<!-- hacktheplanet! -->
