@@ -27,8 +27,8 @@ from adafruit_hid.keyboard_layout_us import KeyboardLayoutUS
 # Variables below are required for this script #
 kbd = Keyboard()
 layout = KeyboardLayoutUS(kbd)
-dots = dotstar.DotStar(board.APA102_SCK, board.APA102_MOSI, 1, brightness=0.2)
-
+dots = dotstar.DotStar(board.APA102_SCK, board.APA102_MOSI, 1, brightness=0.2) # This is the LED
+                                                                               # brightness setting
 
 #############
 # Color Def #
