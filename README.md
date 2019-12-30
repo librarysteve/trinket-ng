@@ -2,7 +2,14 @@
 ### We-pwn-izing the Adafruit Trinket M0 for fun and profit.
 ### (but mostly for some people I work with :space_invader: )
 
-##### Use it to automate a task across air gapped devices, or to *remind* someone to lock thier workstation.
+## Use Cases:
+* *remind* someone to lock thier workstation
+* Automate a repetative task across air gapped devices
+* Look like a hacker
+* Send keystrokes or mouse clicks at super humans speeds!
+
+
+## Setup:
 1. To run the example, replace the content of the main.py file on the board with [this](https://github.com/librarysteve/trinket-ng/blob/master/main.py)
 2. Edit the peyload variables to your liking (or leave it as is)
 3. Save and be ready for that paylod to run. It will run immediately.
