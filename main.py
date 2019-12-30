@@ -46,6 +46,8 @@ OFF = (0, 0, 0)
 msg = 'I will not leave my computer unlocked when I walk away.'
 num_lines = 10
 
+# alternatively you can set this counter to 0 and change the 'notepad' below
+# to a url like this one https://www.youtube.com/watch?v=dQw4w9WgXcQ
 
 #############
 # Functions #
